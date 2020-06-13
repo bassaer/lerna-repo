@@ -1,6 +1,14 @@
 # lerna-repo
 
 ```
+❯ lerna bootstrap
+lerna notice cli v3.22.1
+lerna info Bootstrapping 3 packages
+lerna info Symlinking packages and binaries
+lerna success Bootstrapped 3 packages
+```
+
+```
 ❯ lerna run dev --scope lerna-repo-first
 lerna notice cli v3.22.1
 lerna notice filter including "lerna-repo-first"
