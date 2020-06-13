@@ -18,13 +18,14 @@
         "url": "git+https://github.com/bassaer/lerna-repo.git"
     },
     "scripts": {
+        "dev": "node ./lib/lerna-repo-first.js",
         "test": "echo \"Error: run tests from root\" && exit 1"
     },
     "bugs": {
         "url": "https://github.com/bassaer/lerna-repo/issues"
     },
     "dependencies": {
-        "lerna-repo-second": "github.com:bassaer/lerna-repo-second",
-        "lerna-repo-third": "github.com:bassaer/lerna-repo-third"
+        "lerna-repo-second": "^0.0.0",
+        "lerna-repo-third": "^0.0.0"
     }
 }
